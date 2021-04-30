@@ -1,0 +1,230 @@
+.loginLeftDiv {
+  background: #0e143e;
+  width: 68%;
+  height: 100vh;
+  margin: 0;
+  float: left;
+
+  color: white;
+
+  text-align: center;
+}
+
+.loginLeftDiv h1 {
+  margin: auto;
+  position: absolute;
+  top: 240px;
+  left: 240px;
+  vertical-align: middle;
+  font-size: 80px;
+}
+
+.loginRightDiv {
+  width: 30%;
+  height: 99vh;
+  margin: 1px;
+  border: 2px solid #0e143e;
+  float: left;
+}
+
+.loginParentDiv {
+  position: absolute;
+  top: 231px;
+  right: 162px;
+  /* background-color: red; */
+  height: 200px;
+  width: 200px;
+}
+
+.LoginFormDiv {
+  height: 150px;
+  width: 200px;
+}
+
+#id_label {
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+  top: -48px;
+  font-size: 23px;
+  color: #0e143e;
+}
+
+#id_username {
+  border: 2px solid #0e143e;
+  position: absolute;
+  left: 0px;
+  width: 177px;
+  height: 25px;
+
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+input,
+select {
+  color: #00008b;
+  font-style: italic;
+  font-size: 12px;
+}
+
+#id_username:focus {
+  border: 2px solid #0e143e;
+  font-style: italic;
+  color: #00008b;
+}
+
+#id_password {
+  border: 2px solid #0e143e;
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  width: 177px;
+  height: 25px;
+
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#id_password:focus {
+  border: 2px solid #0e143e;
+  font-style: italic;
+  color: #00008b;
+}
+
+::placeholder {
+  color: #00008b;
+  font-style: italic;
+  opacity: 1;
+  font-size: 12px;
+}
+
+.loginButtons {
+  position: absolute;
+  top: 95px;
+  font-size: 12px;
+}
+
+#id_adminLogin {
+  color: white;
+  background-color: #0e143e;
+  padding: none;
+  border: none;
+  height: 25px;
+  width: 80px;
+  margin-left: 50px;
+  outline: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  font-style: italic;
+  font-weight: bold;
+}
+
+#id_adminLogin:hover {
+  background-color: #00ced1;
+  color: #0e143e;
+}
+
+#id_lostPwd {
+  color: #0e143e;
+  position: absolute;
+  right: 37px;
+  top: 165px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#id_lostPwd:hover {
+  /* color: white !important;
+  background: #228b22 !important;
+  text-decoration: none !important; */
+
+  background-color: #00ced1;
+  color: #0e143e;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* ********* iPhone X *********** */
+
+  .loginLeftDiv {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .loginRightDiv {
+    width: 98%;
+    height: 50vh;
+    background: white;
+    border: 2px solid #0e143e;
+  }
+
+  .loginLeftDiv h1 {
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+    left: 8px;
+  }
+
+  .loginParentDiv {
+    position: relative;
+    top: 150px;
+    left: 50px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #id_label {
+    position: absolute;
+    left: 0px;
+    top: -48px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* ********* iPad *********** */
+  .loginLeftDiv {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .loginRightDiv {
+    width: 99%;
+    height: 50vh;
+    background: white;
+    border: 2px solid #0e143e;
+  }
+
+  .loginLeftDiv h1 {
+    position: absolute;
+    top: 200px;
+    left: 220px;
+    font-size: 60px;
+  }
+
+  .loginParentDiv {
+    position: relative;
+    top: 200px;
+    left: 220px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #id_label {
+    position: absolute;
+    left: 0px;
+    top: -48px;
+  }
+}

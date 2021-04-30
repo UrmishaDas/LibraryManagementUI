@@ -1,0 +1,168 @@
+section {
+  min-height: 400px !important;
+
+  margin-top: 120px !important;
+  overflow-y: auto;
+  overflow-y: hidden;
+
+  z-index: 2;
+}
+
+.main-component-div {
+  color: #0e143e;
+  top: 0px !important;
+  margin-top: 0;
+}
+
+.footer-part {
+  display: block;
+  clear: both;
+}
+
+#mainTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 98%;
+  margin: 10px 10px 10px 10px;
+  border-color: white !important;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#mainTable td,
+#mainTable th {
+  border: 1px solid white !important;
+  padding: 8px;
+  text-align: center !important;
+}
+
+#mainTable tr:nth-child(even) {
+  background-color: #e0ffff !important;
+}
+
+#mainTable tr:nth-child(odd) {
+  background-color: #afeeee !important;
+}
+
+#mainTable tr:hover {
+  background-color: #00ced1 !important;
+}
+
+#mainTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* text-align: center; */
+  background-color: #0e143e !important;
+  color: white;
+}
+
+#btn-operation1 {
+  width: 100px !important;
+  height: 30px !important;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  padding: none;
+  border: none;
+
+  background-color: DodgerBlue !important;
+  color: white;
+  font-weight: bold;
+}
+
+#btn-operation1:hover {
+  color: #0e143e !important;
+  background: white !important;
+  font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 480px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPhone X */
+
+  #mainTable {
+    width: 90%;
+  }
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  #mainTable th {
+    text-align: left !important;
+  }
+
+  #mainTable td {
+    border: 1px solid white;
+    text-align: right !important;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 10%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  /*
+Label the data
+*/
+  td:nth-of-type(1):before {
+    content: "Issue Id";
+  }
+  td:nth-of-type(2):before {
+    content: "Book Id";
+  }
+  td:nth-of-type(3):before {
+    content: "Book";
+  }
+  td:nth-of-type(4):before {
+    content: "Issue Date";
+  }
+  td:nth-of-type(5):before {
+    content: "Expected Return Date";
+  }
+  td:nth-of-type(6):before {
+    content: "Return Status";
+  }
+  td:nth-of-type(7):before {
+    content: "Fine";
+  }
+  td:nth-of-type(8):before {
+    content: "Fine Status";
+  }
+  td:nth-of-type(9):before {
+    content: "Return";
+  }
+  td:nth-of-type(10):before {
+    content: "Re-Issue";
+  }
+}

@@ -1,0 +1,87 @@
+.header-title-bar {
+  position: fixed;
+  top: 0 !important;
+  width: 80%;
+  height: 100px;
+  z-index: 2;
+}
+
+.mainHeader_upperHeader {
+  background: #0e143e;
+  color: white;
+  height: 100px;
+
+  margin-top: 0 !important;
+  top: 0 !important;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mainHeader_userDetails {
+  position: relative;
+  top: -20px;
+  float: right;
+}
+
+.mainHeader_upperHeader div h2 {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  margin: 0;
+
+  font: normal 35px "Cookie", cursive;
+  font-weight: bold;
+}
+
+.mainHeader_upperHeader h2 span {
+  color: #00ced1;
+  /* color: #21a6fc; */
+}
+
+.mainHeader_userDetails .margin-right {
+  margin-right: 15px;
+  width: 80px;
+  height: 30px;
+  color: #0e143e;
+  background: white;
+  padding: none;
+  border: 0;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.margin-right {
+  font-style: italic;
+}
+
+.margin-right:hover {
+  color: white;
+  background-color: #00ced1;
+  font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* iPhone X  */
+  .mainHeader_upperHeader div h2 {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font: normal 25px "Cookie", cursive;
+  }
+
+  .mainHeader_userDetails .margin-right {
+    margin-right: 15px;
+    width: 60px;
+    height: 25px;
+
+    position: relative;
+    top: 20px;
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+}

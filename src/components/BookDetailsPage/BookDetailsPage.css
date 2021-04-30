@@ -1,0 +1,107 @@
+section {
+  min-height: 300px;
+
+  margin-top: 120px !important;
+  overflow-y: auto;
+  overflow-y: hidden;
+
+  z-index: 2;
+}
+
+.main-component-div {
+  color: #0e143e;
+  top: 0px !important;
+  margin-top: 0;
+}
+
+.footer-part {
+  display: block;
+  clear: both;
+}
+
+.form-book-details {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.form-book-details label {
+  display: inline-block;
+  width: 250px;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.form-book-details input {
+  display: inline-block;
+  width: 250px;
+  height: 25px;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  color: #00008b;
+  font-style: italic;
+}
+
+.form-book-details button {
+  margin-left: 14px;
+  width: 240px;
+  height: 50px;
+  background: #0e143e;
+  color: white;
+  padding: none;
+  border: none;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.form-book-details p {
+  margin-left: 14px;
+  color: red !important;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.form-book-details button:hover {
+  background: #00ced1;
+  color: #0e143e;
+  font-weight: bold;
+}
+
+.title-part-with-back-btn h2 {
+  display: inline;
+}
+
+.previous-round {
+  background-color: white;
+  color: black;
+  /* border-radius: 50%; */
+
+  display: inline-block;
+  padding: 8px 16px;
+
+  padding: none;
+  border: none;
+  font-size: 40px;
+  position: relative;
+  top: 3px;
+}
+
+.previous-round:hover {
+  background-color: #0e143e;
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* iPhone X */
+
+  .form-book-details button {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+}

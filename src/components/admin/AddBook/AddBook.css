@@ -1,0 +1,96 @@
+/* **************************************** */
+section {
+  min-height: 300px;
+
+  margin-top: 120px !important;
+  overflow-y: auto;
+  overflow-y: hidden;
+
+  z-index: 2;
+}
+
+
+
+.main-component-div {
+  color: #0e143e;
+  top: 0px !important;
+  margin-top: 0;
+}
+
+.footer-part {
+  display: block;
+  clear: both;
+}
+
+/* ********************************************* */
+
+.edit-configuration-details {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.edit-configuration-details label {
+  display: inline-block;
+  width: 250px;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* .edit-configuration-details div {
+  display: inline-block;
+  width: 250px;
+  height: 25px;
+  border: 2px solid #0e143e;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  color: #00008b;
+  font-style: italic;
+} */
+
+.edit-configuration-details input {
+  display: inline-block;
+  width: 250px;
+  height: 25px;
+  /* border: 2px solid #0e143e; */
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  color: #00008b;
+  font-style: italic;
+}
+
+.edit-configuration-details button {
+  margin-left: 14px;
+  width: 240px;
+  height: 50px;
+  background: #0e143e;
+  color: white;
+  padding: none;
+  border: none;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.edit-configuration-details button:hover {
+  background: #00ced1;
+  color: #0e143e;
+  font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* iPhone X */
+
+  .edit-configuration-details button {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+}

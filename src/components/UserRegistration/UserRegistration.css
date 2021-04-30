@@ -1,0 +1,209 @@
+.loginLeftDiv1 {
+  background: #0e143e;
+  width: 68%;
+  height: 100vh;
+  margin: 0;
+  float: left;
+
+  color: white;
+
+  text-align: center;
+}
+
+.loginLeftDiv1 h1 {
+  margin: auto;
+  position: absolute;
+  top: 240px;
+  left: 240px;
+  vertical-align: middle;
+  font-size: 80px;
+}
+
+.loginRightDiv1 {
+  width: 30%;
+  height: 99vh;
+
+  margin: 1px;
+  border: 2px solid #0e143e;
+  float: left;
+}
+
+#id_label1 {
+  color: #0e143e;
+  font-weight: bold;
+
+  font-style: italic;
+  position: absolute;
+  top: -48px;
+  left: 10px;
+  font-size: 23px;
+}
+
+.loginParentDiv1 {
+  position: absolute;
+  top: 113px;
+  right: 192px;
+
+  width: 200px;
+}
+
+.LoginFormDiv1 {
+  width: 200px;
+}
+
+/* ********************************************************************************* */
+.loginForm1 {
+  position: absolute;
+  height: auto;
+}
+
+.loginForm1 input {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+
+  border: 2px solid #0e143e;
+  margin: 10px;
+
+  width: 177px;
+  height: 25px;
+}
+
+.loginForm1 input:focus {
+  border: 2px solid #0e143e;
+  font-style: italic;
+  color: #00008b;
+}
+
+input,
+select {
+  color: #00008b;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.loginForm1 .loginButtons1 {
+  margin: 10px;
+  position: absolute;
+}
+
+#id_newUser1 {
+  height: 25px;
+  width: 80px;
+
+  color: white;
+  background-color: #0e143e;
+  padding: none;
+  border: none;
+
+  outline: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  font-style: italic;
+  font-weight: bold;
+}
+
+#id_login1 {
+  margin-left: 19px;
+  height: 25px;
+  width: 80px;
+
+  color: white;
+  background-color: #0e143e;
+  padding: none;
+  border: none;
+
+  outline: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* ********************************************************************************* */
+
+::placeholder {
+  color: #00008b;
+  font-style: italic;
+  opacity: 1;
+  font-size: 12px;
+}
+
+#id_login1:hover {
+  background-color: #00ced1;
+  color: #0e143e;
+}
+
+#id_newUser1:hover {
+  background-color: #00ced1;
+  color: #0e143e;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .loginLeftDiv1 {
+    width: 100%;
+    height: 48vh;
+    text-align: center;
+  }
+
+  .loginRightDiv1 {
+    width: 98%;
+    height: 52vh;
+    text-align: center;
+    border: 2px solid #0e143e;
+  }
+
+  .loginLeftDiv1 h1 {
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+    left: 8px;
+  }
+
+  .loginParentDiv1 {
+    position: relative;
+    top: 70px !important;
+    left: 50px !important;
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* iPad */
+  .loginLeftDiv1 {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+  }
+
+  .loginRightDiv1 {
+    width: 99%;
+    height: 50vh;
+    text-align: center;
+
+    border: 2px solid #0e143e;
+  }
+
+  .loginLeftDiv1 h1 {
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+    left: 8px;
+  }
+
+  .loginParentDiv1 {
+    position: relative;
+    top: 110px;
+    left: 180px !important;
+    /* height: 200px !important; */
+    width: 200px;
+  }
+}

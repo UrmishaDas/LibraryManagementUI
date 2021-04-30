@@ -1,0 +1,205 @@
+.main-popup-component2 {
+  width: 350px;
+  height: 180px;
+
+  border: 2px solid #0e143e;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.25s;
+  text-align: center;
+
+  background: #0e143e;
+  color: white;
+
+  position: fixed;
+  left: 40%;
+  top: 35%;
+
+  margin: auto;
+}
+
+.main-popup-component2 button {
+  margin-left: 10px;
+  background: white;
+  color: #0e143e;
+
+  padding: none;
+  border: none;
+
+  width: 70px;
+  height: 30px;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.due-amt-classes2 label {
+  display: inline-block;
+  width: 250px;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 17px;
+
+  margin-left: 90px;
+}
+
+.due-amt-classes2 div {
+  display: inline-block;
+  width: 65px;
+  height: 25px;
+
+  margin-left: 30px;
+  margin-top: 0px;
+
+  font-weight: bold;
+
+  position: relative;
+  top: -21px;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  color: white;
+  font-style: italic;
+}
+
+.due-amt-classes2 {
+  display: table;
+  position: absolute;
+  left: 6px;
+  top: 70px;
+}
+
+.btn-classes {
+  display: table;
+  position: absolute;
+  left: 75px;
+  top: 120px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-popup-component2 {
+    width: 200px !important;
+    height: 150px;
+
+    position: fixed;
+    left: 20%;
+    top: 35%;
+
+    margin: auto;
+  }
+
+  .main-popup-component2 button {
+    margin-left: 30px;
+    width: 70px;
+    height: 30px;
+  }
+
+  .due-amt-classes2 {
+    display: table;
+    position: absolute;
+    left: 6px;
+    top: 70px;
+  }
+
+  .due-amt-classes2 label {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 17px;
+
+    margin-left: 10px;
+  }
+
+  .due-amt-classes2 div {
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+
+    margin-left: 20px;
+    margin-top: 0px;
+
+    font-weight: bold;
+
+    position: relative;
+    top: -21px;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    color: white;
+    font-style: italic;
+  }
+
+  .btn-classes2 {
+    display: table;
+    position: relative;
+    left: 0px !important;
+    top: 30px !important;
+  }
+
+  .btn-classes2 button {
+    width: 60px;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main-popup-component2 {
+    width: 200px !important;
+    height: 180px;
+
+    position: fixed;
+    left: 40%;
+    top: 35%;
+
+    margin: auto;
+  }
+
+  .due-amt-classes2 label {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 17px;
+
+    margin-left: 10px;
+  }
+
+  .due-amt-classes2 div {
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+
+    margin-left: 20px;
+    margin-top: 0px;
+
+    font-weight: bold;
+
+    position: relative;
+    top: -21px;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    color: white;
+    font-style: italic;
+  }
+
+  .btn-classes2 {
+    display: table;
+    position: relative;
+    left: 15px !important;
+    top: 50px !important;
+  }
+}

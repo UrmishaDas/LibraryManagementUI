@@ -1,0 +1,91 @@
+.main-popup-component {
+  width: 350px;
+  height: 180px;
+
+  border: 2px solid #0e143e;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.25s;
+  text-align: center;
+
+  background: #0e143e;
+  color: white;
+
+  /* position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; */
+
+  position: fixed;
+  left: 40%;
+  top: 35%;
+
+  margin: auto;
+}
+
+.main-popup-component button {
+  margin-left: 10px;
+  background: white;
+  color: #0e143e;
+
+  padding: none;
+  border: none;
+
+  width: 70px;
+  height: 30px;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.due-amt-classes label {
+  display: inline-block;
+  width: 250px;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 17px;
+
+  margin-left: 90px;
+}
+
+.due-amt-classes div {
+  display: inline-block;
+  width: 65px;
+  height: 25px;
+
+  margin-left: 30px;
+  margin-top: 0px;
+
+  font-weight: bold;
+
+  position: relative;
+  top: -21px;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  /* color: #00008b; */
+  color: white;
+  font-style: italic;
+}
+
+.due-amt-classes {
+  display: table;
+  position: absolute;
+  left: 6px;
+  top: 70px;
+}
+
+.btn-classes {
+  display: table;
+  position: absolute;
+  left: 75px;
+  top: 120px;
+}
